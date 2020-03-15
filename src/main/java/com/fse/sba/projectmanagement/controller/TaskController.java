@@ -19,6 +19,7 @@ import com.fse.sba.projectmanagement.dao.Task;
 import com.fse.sba.projectmanagement.model.TaskRequest;
 import com.fse.sba.projectmanagement.repository.TaskRepository;
 import com.fse.sba.projectmanagement.service.TaskService;
+
 @CrossOrigin(origins="http://localhost:4200")
 @Controller
 @RequestMapping(path="/task")
