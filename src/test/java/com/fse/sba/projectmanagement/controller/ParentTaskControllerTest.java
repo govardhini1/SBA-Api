@@ -36,11 +36,6 @@ public class ParentTaskControllerTest {
 	    	assertEquals(1, parentTaskService.getAllUsers().size());
 	    }
 	    
-//	  @Test
-//	    public void saveParent() {
-//		  ParentTask ptask = new ParentTask(1,"isd");
-//	    	Mockito.when(parentTaskrepository.save(ptask)).thenReturn(ptask);
-//	    	assertEquals(ptask, parentTaskService.addParentTask(""));
-//	    }
+
 
 }
